@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    .main{
+        background-image: url(https://img.freepik.com/free-photo/flat-lay-arrangement-with-salad-box-sauce_23-2148247883.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+
+    }.main h2{
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    .btn1{
+        height: 45px;
+        width: 35%;
+        border: none;
+        outline: none;
+        background-color: rgb(231, 54, 83);
+        color: white;
+        font-weight: 700;
+        border-radius: 65px;
+    }
+    .btn1:hover{
+        background-color: rgb(143, 0, 48);
+    }
+    .card:hover{
+        box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.93);
+-webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.93);
+-moz-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.93);
+transition: 0.5s;
+    }
+    .sujal{
+        background-image: url(https://mekhalaliving.com/wp-content/uploads/2023/02/Website-Banner-Indian-Range-Teaser-1920-x-1080.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+    .sujal h1{
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    ul li{
+        font-size: 20px;
+        font-weight: 500;
+    }
+</style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+        <div class="container">
+            <a style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;" href="#" class="navbar-brand">YUMMY..</a>
+
+            <button class="navbar-toggler" data-bs-toggel="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="#nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+
+                </ul>
+            </div>
+        </div>
+        </div>
+
+    </nav>
+
+    <section class="main ">
+        <div class="container py-5">
+            <div class="row py-4">
+                <div class="col-lg-7 pt-5 ">
+                    <h2 class="pt-5">Nature Has Always Cared For Us !</h2>
+                    <button class="btn1 mt-3">More Tips</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="new">
+        <div class="container py-5">
+            <div class="row pt-5">
+                <div class="col-lg-7 m-auto">
+                    <div class="row text-center">
+                        <div class="col-lg-4">
+
+                            <img class="luid" src="https://static.vecteezy.com/system/resources/previews/022/825/544/original/orange-fruit-orange-on-transparent-background-free-png.png" width="200px" height="200px" alt="">
+                            <h6>NATURAL</h6>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <img class="luid" src="data:image/jpeg;base64,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" width="200px" height="200px" alt="">
+                            <h6>NATURAL</h6>
+                            
+                        </div>
+                        <div class="col-lg-4">
+                            <img class="luid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlR9jLiCrgbRbkcppvm51j7g4tfPj0qBm3qA&s" width="200px" height="200px" alt="">
+                            <h6>NATURAL</h6>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product">
+        <div class="conatiner py-5">
+            <div class="row py-5">
+                <div class="col-lg-5 m-auto text-center">
+
+                    <h1>What's Trending</h1>
+                    <h6 style="color: red;">Be Healthy Organic Food</h6>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Ei57CnBr_-k8nu3g1b-A_TqQ2N3Tk4LH0Q&s" width="300px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoaDHzI0450AiEAV4e1-pCJcuuZApDZzQj-w&s" width="300px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSkLAiR1vSTyubW07tYdAK4d2BYOkAxLQmtQ&s" width="300px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvclhRyD_XSDIiwI7mjEnr9Jt21rK_j1eSgg&s" width="300px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-7 m-auto text-center">
+                    <button class="btn1">Click For More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ABOUT">
+          <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-8 m-auto text-center">
+                    <h1>Welcome To Our Food Sociaty</h1>
+                    <p style="color: red;">Be Healthy Oraganic Food</p>
+                </div>
+            </div>
+            <div class="row pt-1">
+                <div class="col-lg-4">
+                    <img class="img-fluid mb-3" src="https://s.yimg.com/ny/api/res/1.2/3_NQ5bD.M2GWEn2XG_pT5g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTY0MA--/https://media.zenfs.com/en/eating_well_articles_946/fd16aed33b250be47dd173a773edb4d9" width="400px" height="350px" alt="">
+                    <h6>Best Quality Product</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid officia sint pariatur. Iste consequuntur nesciunt alias, cum doloribus omnis suscipit quas in esse. Ab praesentium voluptatem beatae? Hic, non odit?</p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-fluid mb-3" src="https://c.ndtvimg.com/2023-07/m9v7pm4_healthy-diet_625x300_16_July_23.jpg?im=FaceCrop,algorithm=dnn,width=384,height=384" width="400px" height="350px" alt="">
+                    <h6>Best Quality Product</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid officia sint pariatur. Iste consequuntur nesciunt alias, cum doloribus omnis suscipit quas in esse. Ab praesentium voluptatem beatae? Hic, non odit?</p>
+                </div>
+                <div class="col-lg-4">
+                    <img  class="img-fluid mb-3" src="https://www.eatingwell.com/thmb/yhutE1hhOHSw3Xw-oVfPn6eGVYw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3749561-d6c6f08e39664e94ac339615fffc53e2.jpg" height="350px" width="400px" alt="">
+                    <h6>Best Quality Product</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid officia sint pariatur. Iste consequuntur nesciunt alias, cum doloribus omnis suscipit quas in esse. Ab praesentium voluptatem beatae? Hic, non odit?</p>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-lg-7 m-auto text-center">
+                    <button class="btn1">Submit</button>
+                </div>
+            </div>
+          </div>
+    </section>
+
+    <sectionc class="shop">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-8 m-auto text-center">
+                    <h1>Explore Our Store</h1>
+                    <p style="color: red;">Pick your Product Our Store</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Ei57CnBr_-k8nu3g1b-A_TqQ2N3Tk4LH0Q&s" width="280px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoaDHzI0450AiEAV4e1-pCJcuuZApDZzQj-w&s" width="280px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSkLAiR1vSTyubW07tYdAK4d2BYOkAxLQmtQ&s" width="280px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvclhRyD_XSDIiwI7mjEnr9Jt21rK_j1eSgg&s" width="280px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Ei57CnBr_-k8nu3g1b-A_TqQ2N3Tk4LH0Q&s" width="280px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoaDHzI0450AiEAV4e1-pCJcuuZApDZzQj-w&s" width="280px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSkLAiR1vSTyubW07tYdAK4d2BYOkAxLQmtQ&s" width="280px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvclhRyD_XSDIiwI7mjEnr9Jt21rK_j1eSgg&s" width="280px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Ei57CnBr_-k8nu3g1b-A_TqQ2N3Tk4LH0Q&s" width="280px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoaDHzI0450AiEAV4e1-pCJcuuZApDZzQj-w&s" width="280px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSkLAiR1vSTyubW07tYdAK4d2BYOkAxLQmtQ&s" width="280px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+
+                    <div class="card border-0 bg-light ">
+                        <div class="card-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvclhRyD_XSDIiwI7mjEnr9Jt21rK_j1eSgg&s" width="280px" height="360px" alt="">
+                
+                        </div>
+                    </div>
+                    <h6>Energy food</h6>
+                    <p>$50.67</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sujal">
+
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-8  ">
+                    <h1 style="margin-top: 170px;" class="py-3">Unlock Your Potentail With Good Nutrin</h1>
+                    <h6 style="font-size: 25px;">Be Healthy Oraganic Food</h6>
+                    <button class="btn1 mt-4">More For Us</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="CONTACT">
+        <div class="conatiner py-5">
+            <div class="row py-5">
+                <div class="col-lg-5 m-auto text-center">
+                    <h1>Contact Us</h1>
+                    <p style="color: red;">Always Be In Touch With Us</p>
+                </div>
+            </div>
+           <div class="row">
+            <div class="col-lg-9 m-auto">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h6>LOCATION</h6>
+                        <P>Ahmd navrangpura 099,first street</P>
+
+                        <h6>PHONE</h6>
+                        <p>0989-97779-8978</p>
+
+                        <h6>EMAIL</h6>
+                        <P>parmarsujal256@gmail.com</P>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control bg-light" placeholder="First Name" name="" id="">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control bg-light" placeholder="Last Name" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </div>
+    </section>
+    
+</body>
+</html>
